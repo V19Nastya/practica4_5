@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter';
+}
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('fonts/static/PlayfairDisplay-Black.ttf');
+}
+@font-face {
+	font-family: 'CrimsonText';
+	src: url('fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+.container {
+    display: flex;
+}
+
+
+.collectiv {
+    text-align: center;
+}
+.collectiv-1 {
+    display: inline-block;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
